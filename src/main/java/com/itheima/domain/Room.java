@@ -2,10 +2,11 @@ package com.itheima.domain;
 
 public class Room {
     private Integer rid;
-    private Integer level;
+    private String type;
     private String roomNumber;
     private Integer price;
-    private Integer status;
+    private Integer roomStatus;
+    private String roomDesc;
 
     public Integer getRid() {
         return rid;
@@ -15,12 +16,12 @@ public class Room {
         this.rid = rid;
     }
 
-    public Integer getLevel() {
-        return level;
+    public String getType() {
+        return type;
     }
 
-    public void setLevel(Integer level) {
-        this.level = level;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getRoomNumber() {
@@ -39,11 +40,19 @@ public class Room {
         this.price = price;
     }
 
-    public Integer getStatus() {
-        return status;
+    public Integer getRoomStatus() {
+        return roomStatus;
     }
 
-    public void setStatus(Integer status) {
-        this.status = status;
+    public void setRoomStatus(Integer roomStatus) {
+        this.roomStatus = roomStatus;
+    }
+
+    public String getRoomDesc() {
+        return roomDesc;
+    }
+
+    public void setRoomDesc(String roomDesc) {
+        this.roomDesc = roomDesc;
     }
 }

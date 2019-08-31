@@ -5,7 +5,7 @@ public class User {
     private String uname;
     private String username;
     private String password;
-    private Integer status;
+    private Integer userStatus;
 
     public Integer getUid() {
         return uid;
@@ -39,11 +39,11 @@ public class User {
         this.password = password;
     }
 
-    public Integer getStatus() {
-        return status;
+    public Integer getUserStatus() {
+        return userStatus;
     }
 
-    public void setStatus(Integer status) {
-        this.status = status;
+    public void setUserStatus(Integer userStatus) {
+        this.userStatus = userStatus;
     }
 }

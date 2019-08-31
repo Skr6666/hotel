@@ -6,7 +6,7 @@ public class Client {
     private Integer cid;
     private String cname;
     private String IDNumber;
-    private Integer status;
+    private Integer clientStatus;
     private Date inTime;
     private Date outTime;
 
@@ -34,12 +34,12 @@ public class Client {
         this.IDNumber = IDNumber;
     }
 
-    public Integer getStatus() {
-        return status;
+    public Integer getClientStatus() {
+        return clientStatus;
     }
 
-    public void setStatus(Integer status) {
-        this.status = status;
+    public void setClientStatus(Integer clientStatus) {
+        this.clientStatus = clientStatus;
     }
 
     public Date getInTime() {
